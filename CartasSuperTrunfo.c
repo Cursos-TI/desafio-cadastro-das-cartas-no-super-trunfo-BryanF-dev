@@ -14,7 +14,7 @@ printf("Cadastro de Estado e Cidades \n"); //Introdução
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    char codigo_da_cidade [3];
+    char codigo_da_cidade [20];
     char estado [20];
     char cidade_1[20];
     char cidade_2[20];
