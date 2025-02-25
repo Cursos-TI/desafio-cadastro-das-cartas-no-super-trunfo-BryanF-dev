@@ -18,21 +18,82 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     char Carta01 [20]="Carta 01";
     char Carta02 [20]="Carta 02";
     char Estado;
-    char Cod_carta[20];
-    char Nome_Cidade [20];
-    int População;
+    char Estado_1;
+    char Cod_carta[3];
+    char Cod_carta_1[3];
+    char Nome_cidade[20];
+    char Nome_cidade_1[20];
+    int Populacao;
+    int Populacao_1;
     float Area;
+    float Area_1;
     float PIB;
+    float PIB_1;
     int Pont_turisticos;
+    int Pont_turisticos_1;
           
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    printf("Estado: \n");
+    scanf("%c" ,&Estado);
+    printf("Codigo Da Carta: \n");
+    scanf("%s" ,&Cod_carta);
+    printf("Nome Da Cidade : \n");
+    scanf("%s" ,&Nome_cidade);
+    printf("População: \n");
+    scanf("%d" ,&Populacao);
+    printf("Area: \n");
+    scanf("%f" ,&Area);
+    printf("PIB: \n");
+    scanf("%f" ,&PIB);
+    printf("Pontos Turisticos: \n");
+    scanf("%d" ,&Pont_turisticos);
 
+    printf("\n");
 
+    printf("Estado: \n");
+    scanf("%c" ,&Estado_1);
+    printf("Codigo Da Carta: \n");
+    scanf("%s" ,&Cod_carta_1);
+    printf("Nome Da Cidade : \n");
+    scanf("%s" ,&Nome_cidade_1);
+    printf("População: \n");
+    scanf("%d" ,&Populacao_1);
+    printf("Area: \n");
+    scanf("%f" ,&Area_1);
+    printf("PIB: \n");
+    scanf("%f" ,&PIB_1);
+    printf("Pontos Turisticos: \n");
+    scanf("%d" ,&Pont_turisticos_1);
+    
+     printf("\n");
+    //Resultado
 
+    printf ("Carta 01 \n");
+    printf("Estado: %c \n" ,Estado);
+    printf("Codigo Da Carta: %s \n" ,Cod_carta);
+    printf("Nome Da Cidade: %s \n" ,Nome_cidade);
+    printf("População: %d \n" ,Populacao);
+    printf("Area: %f \n" ,Area);
+    printf("PIB: %f \n" ,PIB);
+    printf("Pontos Turisticos: %d \n" ,Pont_turisticos);
 
+    printf("\n");
+
+    printf ("Carta 02 \n");
+    printf("Estado: %c \n" ,Estado_1);
+    printf("Codigo Da Carta: %s \n" ,Cod_carta_1);
+    printf("Nome Da Cidade: %s \n" ,Nome_cidade_1);
+    printf("População: %d \n" ,Populacao_1);
+    printf("Area: %f \n" ,Area_1);
+    printf("PIB: %f \n" ,PIB_1);
+    printf("Pontos Turisticos: %d \n" ,Pont_turisticos_1);
+    printf("\n");
+  
+
+    
 
     
     return 0;

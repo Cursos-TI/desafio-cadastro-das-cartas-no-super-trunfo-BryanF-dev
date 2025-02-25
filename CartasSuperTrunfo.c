@@ -116,7 +116,7 @@ printf("\n");
     printf("\n");
 
     printf("Cidade A01: %s \n" ,cidade_1);
-    printf("População : ¨%f \n" ,populacao_1);
+    printf("População : %f \n" ,populacao_1);
     printf("Área : %f \n" ,area_1);
     printf("PIB : %f \n" ,pib_1);
     printf("N° De Pontos Turisticos : %d \n" ,numero_pontos_turisticos_1);
