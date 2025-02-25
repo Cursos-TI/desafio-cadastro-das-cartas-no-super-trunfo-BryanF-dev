@@ -15,7 +15,7 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
  
-    char Carta01 [20]="Carta 01";
+    char Carta01 [20]="Carta 01";                      //VARIAVES
     char Carta02 [20]="Carta 02";
     char Estado;
     char Estado_;
@@ -36,45 +36,28 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    printf("\n");
+
+
+    printf("\n");                                   //REGISTO CARTA 1
     printf("Carta N°1 \n");
-    printf("Estado: \n");
+    printf("Estado 1: \n");
     scanf("%c" ,&Estado);
-    printf("Codigo Da Carta: \n");
+    printf("Codigo Da Carta 1: \n");
     scanf("%s" ,&Cod_carta);
-    printf("Nome Da Cidade : \n");
+    printf("Nome Da Cidade 1: \n");
     scanf("%s" ,&Nome_cidade);
-    printf("População: \n");
+    printf("População 1: \n");
     scanf("%d" ,&Populacao);
-    printf("Area: \n");
+    printf("Area 1: \n");
     scanf("%f" ,&Area);
-    printf("PIB: \n");
+    printf("PIB 1: \n");
     scanf("%f" ,&PIB);
-    printf("Pontos Turisticos: \n");
+    printf("Pontos Turisticos 1: \n");
     scanf("%d" ,&Pont_turisticos);
-
-
-    printf("\n");
-    printf("Carta N°2 \n");
-    printf("Estado: \n");
-    scanf("%s" ,&Estado_);
-    printf("Codigo Da Carta: \n");
-    scanf("%s" ,&Cod_carta_1);
-    printf("Nome Da Cidade : \n");
-    scanf("%s" ,&Nome_cidade_1);
-    printf("População: \n");
-    scanf("%d" ,&Populacao_1);
-    printf("Area: \n");
-    scanf("%f" ,&Area_1);
-    printf("PIB: \n");
-    scanf("%f" ,&PIB_1);
-    printf("Pontos Turisticos: \n");
-    scanf("%d" ,&Pont_turisticos_1);
     
-     printf("\n");
-    //Resultado
+    printf("\n");                //ESPAÇO
 
-    printf ("Carta 01 \n");
+    printf ("Carta 01 \n");                           //RESULTADO CARTA 1
     printf("Estado: %c \n" ,Estado);
     printf("Codigo Da Carta: %s \n" ,Cod_carta);
     printf("Nome Da Cidade: %s \n" ,Nome_cidade);
@@ -83,9 +66,30 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     printf("PIB: %f \n" ,PIB);
     printf("Pontos Turisticos: %d \n" ,Pont_turisticos);
 
-    printf("\n");
 
-    printf ("Carta 02 \n");
+
+    printf("\n");    //ESPAÇO
+
+
+    printf("Carta N°2 \n");                    //REGISTRO CARTA 2
+    printf("Estado 2: \n");
+    scanf("%s" ,&Estado_);
+    printf("Codigo Da Carta 2: \n");
+    scanf("%s" ,&Cod_carta_1);
+    printf("Nome Da Cidade 2: \n");
+    scanf("%s" ,&Nome_cidade_1);
+    printf("População 2: \n");
+    scanf("%d" ,&Populacao_1);
+    printf("Area 2: \n");
+    scanf("%f" ,&Area_1);
+    printf("PIB 2: \n");
+    scanf("%f" ,&PIB_1);
+    printf("Pontos Turisticos 2: \n");
+    scanf("%d" ,&Pont_turisticos_1); 
+
+    printf("\n");                //ESPAÇO     
+
+    printf ("Carta 02 \n");                        //RESULTADO CARTA 2
     printf("Estado: %c \n" ,Estado_);
     printf("Codigo Da Carta: %s \n" ,Cod_carta_1);
     printf("Nome Da Cidade: %s \n" ,Nome_cidade_1);
@@ -97,6 +101,5 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
 
 
 
-    
     return 0;
 }
