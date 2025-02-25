@@ -18,9 +18,9 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     char Carta01 [20]="Carta 01";
     char Carta02 [20]="Carta 02";
     char Estado;
-    char Estado_1;
-    char Cod_carta[3];
-    char Cod_carta_1[3];
+    char Estado_;
+    char Cod_carta[20];
+    char Cod_carta_1[20];
     char Nome_cidade[20];
     char Nome_cidade_1[20];
     int Populacao;
@@ -36,6 +36,8 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    printf("\n");
+    printf("Carta N°1 \n");
     printf("Estado: \n");
     scanf("%c" ,&Estado);
     printf("Codigo Da Carta: \n");
@@ -51,10 +53,11 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     printf("Pontos Turisticos: \n");
     scanf("%d" ,&Pont_turisticos);
 
-    printf("\n");
 
+    printf("\n");
+    printf("Carta N°2 \n");
     printf("Estado: \n");
-    scanf("%c" ,&Estado_1);
+    scanf("%s" ,&Estado_);
     printf("Codigo Da Carta: \n");
     scanf("%s" ,&Cod_carta_1);
     printf("Nome Da Cidade : \n");
@@ -83,7 +86,7 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     printf("\n");
 
     printf ("Carta 02 \n");
-    printf("Estado: %c \n" ,Estado_1);
+    printf("Estado: %c \n" ,Estado_);
     printf("Codigo Da Carta: %s \n" ,Cod_carta_1);
     printf("Nome Da Cidade: %s \n" ,Nome_cidade_1);
     printf("População: %d \n" ,Populacao_1);
@@ -91,10 +94,8 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     printf("PIB: %f \n" ,PIB_1);
     printf("Pontos Turisticos: %d \n" ,Pont_turisticos_1);
     printf("\n");
-  
 
-    
 
-    
+
     return 0;
 }
