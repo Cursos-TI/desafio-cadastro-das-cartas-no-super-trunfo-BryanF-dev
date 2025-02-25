@@ -97,5 +97,6 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
 
 
 
+    
     return 0;
 }
