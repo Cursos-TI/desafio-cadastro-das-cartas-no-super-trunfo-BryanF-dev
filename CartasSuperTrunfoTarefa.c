@@ -17,8 +17,8 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
  
     char Carta01 [20]="Carta 01";                      //VARIAVES
     char Carta02 [20]="Carta 02";
-    char Estado;
-    char Estado_;
+    char Estado [20];
+    char Estado_[20];
     char Cod_carta[20];
     char Cod_carta_1[20];
     char Nome_cidade[20];
@@ -41,7 +41,7 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     printf("\n");                                   //REGISTO CARTA 1
     printf("Carta N°1 \n");
     printf("Estado 1: \n");
-    scanf("%c" ,&Estado);
+    scanf("%s" ,&Estado);
     printf("Codigo Da Carta 1: \n");
     scanf("%s" ,&Cod_carta);
     printf("Nome Da Cidade 1: \n");
@@ -57,8 +57,8 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     
     printf("\n");                //ESPAÇO
 
-    printf ("Carta 01 \n");                           //RESULTADO CARTA 1
-    printf("Estado: %c \n" ,Estado);
+    printf ("Carta 01 : \n");                           //RESULTADO CARTA 1
+    printf("Estado: %s \n" ,Estado);
     printf("Codigo Da Carta: %s \n" ,Cod_carta);
     printf("Nome Da Cidade: %s \n" ,Nome_cidade);
     printf("População: %d \n" ,Populacao);
@@ -90,7 +90,7 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
     printf("\n");                //ESPAÇO     
 
     printf ("Carta 02 \n");                        //RESULTADO CARTA 2
-    printf("Estado: %c \n" ,Estado_);
+    printf("Estado: %s \n" ,Estado_);
     printf("Codigo Da Carta: %s \n" ,Cod_carta_1);
     printf("Nome Da Cidade: %s \n" ,Nome_cidade_1);
     printf("População: %d \n" ,Populacao_1);
