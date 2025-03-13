@@ -7,7 +7,7 @@
 //Teste larissa
 
 int main() {
-    printf("Bem Vindos ao Jogo Super Trunfo (Paises) \n");  //Titulo do jogo!
+    printf("**__ Bem Vindos ao Jogo Super Trunfo (Paises)__** \n");  //Titulo do jogo!
    
 
 printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
@@ -44,6 +44,7 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
 
     printf("\n");                                   //REGISTO CARTA 1
     printf("Carta N°1 \n");
+    printf("\n");
     printf("Estado 1: \n");
     scanf("%s" ,&Estado);
     printf("Codigo Da Carta 1: \n");
@@ -76,8 +77,9 @@ printf("Cadastro de Cartas Do Jogo. \n"); //Introdução
 
     printf("\n");    //ESPAÇO
 
-
-    printf("Carta N°2 \n");                    //REGISTRO CARTA 2
+                                                    //REGISTRO CARTA 2
+    printf("Carta N°2 \n");
+    printf("\n");                   
     printf("Estado 2: \n");
     scanf("%s" ,&Estado_);
     printf("Codigo Da Carta 2: \n");
